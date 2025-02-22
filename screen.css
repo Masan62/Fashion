@@ -1,4 +1,35 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background-color: #000000; /* Black background */
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.Page {
+    position: absolute;
+    top: 5px;  /* Position the title at the top */
+    left: 560px; /* Position the title on the left */
+    
+}
+
+
+h1 { padding: 5px;
+    color: #FFFFFF; /* White text */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    margin-top: 50px; /* Push the content down */
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+   }
